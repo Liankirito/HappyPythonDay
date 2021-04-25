@@ -85,8 +85,9 @@ PPC-CTF實戰
 ```
 ###Ascii - 20 pts
 passWord = [66,114,101,97,107,65,76,76,67,84,70,123,65,109,118,48,117,68,121,101,114,118,80,116,109,86,114,57,83,83,83,75,125]
+
 for i in passWord:
- print(chr(i),end='')
+    print(chr(i),end='')
 ...
 BreakALLCTF{Amv0uDyervPtmVr9SSSK}>>> 
 KeyboardInterrupt
